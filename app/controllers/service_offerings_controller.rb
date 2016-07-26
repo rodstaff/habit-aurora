@@ -1,4 +1,5 @@
 class ServiceOfferingsController < ApplicationController
+  http_basic_authenticate_with name: "dhh", password: "secret", except: [:index, :show]
   before_action :set_service_offering, only: [:show, :edit, :update, :destroy]
 
   # GET /service_offerings
