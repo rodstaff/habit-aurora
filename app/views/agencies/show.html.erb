@@ -9,6 +9,13 @@
   <strong>City:</strong>
   <%= @agency.city %>
 </p>
+<p>
+  <strong>Services</strong><br>
+    <% @agency.service_offerings.each do |so| %>
+      <%= so.name %><br>
+    <% end %>
+</p>
+
 
 <%= link_to 'Edit', edit_agency_path(@agency) %> |
 <%= link_to 'Back', agencies_path %>
