@@ -6,6 +6,7 @@
   <thead>
     <tr>
       <th>Name</th>
+      <th>Agencies</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -14,6 +15,9 @@
     <% @service_offerings.each do |service_offering| %>
       <tr>
         <td><%= service_offering.name %></td>
+        <td><% service_offering.agencies.each do |agency| %>
+            <%= agency.name %><br>
+            <% end %></td>
         <td><%= link_to 'Show', service_offering %></td>
         <td><%= link_to 'Edit', edit_service_offering_path(service_offering) %></td>
         <td><%= link_to 'Destroy', service_offering, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -25,4 +29,4 @@
 <br>
 
 <%= link_to 'New Service Offering', new_service_offering_path %> |
-<%= link_to 'Back to Agencies List', agencies_path %>
+<%= link_to 'Agencies List', agencies_path %>
