@@ -50,8 +50,9 @@ localhost: 8001
 ```
 
 ###Happy Coding!
-##References/Sources:  
-1.  []() 
+##Reference/Source:  
+[Active Record Associations](http://guides.rubyonrails.org/association_basics.html) 
+
 
 
 
