@@ -20,7 +20,7 @@
     <%= f.text_field :city %>
   </div><br>
 
-  <div> Service Offerings:
+  <div> Select Bodyguards Here:
     <%= f.collection_check_boxes(:service_offering_ids, ServiceOffering.all, :id, :name) %>
   </div><br>
 
