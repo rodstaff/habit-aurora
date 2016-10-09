@@ -1,0 +1,116 @@
+/* line 1, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+body {
+  background-color: #eee;
+  background: url("aurora.jpg");
+  background-size: cover;
+  color: white;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 11, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 17, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 23, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+a {
+  color: white;
+}
+/* line 26, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+a:visited {
+  color: white;
+}
+/* line 30, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+a:hover {
+  color: blue;
+  background-color: #000;
+}
+
+/* line 37, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 42, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+#notice {
+  color: green;
+}
+
+/* line 46, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 52, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 60, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 71, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/custom.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 5, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/welcome.scss */
+h1 {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 25px;
+  line-height: 18px;
+  text-align: left;
+  padding: 5px 5px 10px 0px;
+  margin-bottom: 30px;
+  color: #FFD700;
+}
+
+/* line 18, /Users/rodkay/workspace/Rails/habit/app/assets/stylesheets/welcome.scss */
+h2 {
+  text-align: left;
+  padding: 5px 5px 5px 0px;
+  font-size: 20px;
+  margin-bottom: 30px;
+  color: #FFD700;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
