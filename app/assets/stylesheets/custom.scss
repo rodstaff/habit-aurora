@@ -1,8 +1,8 @@
 body {
   background-color: #eee;
-//  background: url("aurora.jpg");
+  background: url("aurora.jpg");
   background-size: cover;
-  color: black;
+  color: white;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 16px;
   line-height: 18px;
@@ -18,7 +18,7 @@ h1 {
     margin-bottom: 30px;
 //    background-color: #c00;
 //    color: black;
-//    color: #FFD700;
+    color: #FFD700;
 }
 h2 {
     text-align: left;
@@ -26,7 +26,7 @@ h2 {
     font-size: 20px;
     margin-bottom: 30px;
 //    color: black;
-//    color: #FFD700;
+    color: #FFD700;
 }
 
 p, ol, ul, td {
@@ -42,10 +42,11 @@ pre {
 }
 
 a {
-  color: black;
+  color: white;
 
   &:visited {
-    color: black;
+//    color: white;
+    color: #FFD700;
   }
 
   &:hover {
