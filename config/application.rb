@@ -6,10 +6,6 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-# By default Rails 4 will not serve your assets. To enable this 
-# functionality you need to go into config/application.rb and add this line:
-config.serve_static_assets = true
-
 module Habit
   class Application < Rails::Application
     # Settings in config/environments/* take precedence over those specified here.
@@ -26,5 +22,10 @@ module Habit
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+
+    # By default Rails 4 will not serve your assets. To enable this 
+    # functionality you need to go into config/application.rb and add this line:
+    config.serve_static_assets = true
+
   end
 end
