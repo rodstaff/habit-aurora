@@ -7,6 +7,27 @@ body {
   font-size: 16px;
   line-height: 18px;
 }
+h1 {
+    font-family: verdana, arial, helvetica, sans-serif;
+    font-size: 25px;
+    line-height: 18px;
+    text-align: left;
+//    font-weight: bold;
+    padding: 5px 5px 10px 0px;
+//    margin: -7px;
+    margin-bottom: 30px;
+//    background-color: #c00;
+//    color: black;
+    color: #FFD700;
+}
+h2 {
+    text-align: left;
+    padding: 5px 5px 5px 0px;
+    font-size: 20px;
+    margin-bottom: 30px;
+//    color: black;
+    color: #FFD700;
+}
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
@@ -24,7 +45,8 @@ a {
   color: white;
 
   &:visited {
-    color: white;
+//    color: white;
+    color: #FFD700;
   }
 
   &:hover {

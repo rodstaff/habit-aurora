@@ -13,6 +13,9 @@
 
 ActiveRecord::Schema.define(version: 20160725234819) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "agencies", force: :cascade do |t|
     t.string   "name"
     t.string   "city"
@@ -25,8 +28,8 @@ ActiveRecord::Schema.define(version: 20160725234819) do
     t.integer "service_offering_id"
   end
 
-  add_index "agencies_service_offerings", ["agency_id"], name: "index_agencies_service_offerings_on_agency_id"
-  add_index "agencies_service_offerings", ["service_offering_id"], name: "index_agencies_service_offerings_on_service_offering_id"
+  add_index "agencies_service_offerings", ["agency_id"], name: "index_agencies_service_offerings_on_agency_id", using: :btree
+  add_index "agencies_service_offerings", ["service_offering_id"], name: "index_agencies_service_offerings_on_service_offering_id", using: :btree
 
   create_table "service_offerings", force: :cascade do |t|
     t.string   "name"
